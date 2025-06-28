@@ -22,12 +22,12 @@ Lopyu mah loploplop 💖.`;
 
 // Galeri foto dan caption
 const galleryItems = [
-  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "Kenangan indah bersama mama ❤️" },
-  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "Selalu tersenyum dan bahagia 💐" },
-  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "Momen spesial keluarga 💖" },
+  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "inpo kata kata" },
+  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "inpo kata kata" },
+  { src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif", caption: "inpo kata kata" },
   {
     src: "https://i.pinimg.com/originals/a8/90/ff/a890ffa123b1c2c6e2c069a3c9da20ea.gif",
-    caption: "Semoga kebahagiaan selalu bersama mama 🌸",
+    caption: "inpo kata kata ",
   },
 ];
 let currentImage = 0;
