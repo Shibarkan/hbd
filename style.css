@@ -1,0 +1,43 @@
+/* Background */
+body {
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Fade in */
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease forwards;
+}
+
+/* Giggle */
+@keyframes giggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+.envelope-img {
+  animation: giggle 1.2s infinite ease-in-out alternate;
+}
+
+/* Floating */
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
+/* Fade-in cepat */
+@keyframes fade-in-fast {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fade-in-fast {
+  animation: fade-in-fast 0.6s ease forwards;
+}
